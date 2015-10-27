@@ -3,7 +3,7 @@
 			<div id="main">
 				<section id="one">
 					<header class="major">
-						<h1>Suchergebnisse für &ldquo;<?php echo search_term(); ?>&rdquo;</h1>
+						<h1>Results for &ldquo;<?php echo search_term(); ?>&rdquo;</h1>
 					</header>
 						<?php if(has_search_results()): ?>
 						<ul class="items">
@@ -19,7 +19,7 @@
 						</ul>
 					
 					<?php else: ?>
-						<p>Leider konnten die hochtrainierten, von YouTube geleasten Affen nichts zum Begriff &ldquo;<?php echo search_term(); ?>&rdquo; finden... :/</p>
+						<p>Unfortunately, the highly trained monkeys were not able to find something for &ldquo;<?php echo search_term(); ?>&rdquo; :/</p>
 					<?php endif; ?>
 				</section>
 			</div>
