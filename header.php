@@ -1,12 +1,3 @@
-<?php
-    if (!isset($_SERVER["HTTPS"])) {
-		// https nicht aktiv
-		if ($_SERVER["HTTP_HOST"]=="th3f.de") 
-		{
-		header("Location: https://th3f.de");
-		}
-	}
-?>
 <!DOCTYPE HTML>
 <!--
 	Strata by HTML5 UP
@@ -16,12 +7,12 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title><?php echo page_title('404 - Nicht gefunden!'); ?> | <?php echo site_name(); ?></title>
+		<title><?php echo page_title('404 - Not found!'); ?> | <?php echo site_name(); ?></title>
 		<?php if(is_article()): ?><meta name="description" content='<?php echo article_description(); ?>'>
 		<?php elseif(is_homepage()): ?><meta name="description" content='<?php echo site_description(); ?>'>
 		<?php elseif(is_page()): ?><meta name="description" content='<?php echo site_description(); ?>'>
 		<?php endif; ?>
-		<meta property="og:title" content="<?php echo page_title('404 - Nicht gefunden!'); ?> - <?php echo site_name(); ?>">
+		<meta property="og:title" content="<?php echo page_title('404 - Not found!'); ?> - <?php echo site_name(); ?>">
 		<meta property="og:url" content="<?php echo current_url(); ?>">
 		<meta property="og:site_name" content="<?php echo site_name(); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
