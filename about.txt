@@ -1,0 +1,5 @@
+Theme name:     Strata
+Description:    A fancy theme by HTML5 UP - Ported by Th3f
+Author name:    HTML5 UP // Th3f
+Author site:    http://html5up.net
+License:        http://html5up.net/license
