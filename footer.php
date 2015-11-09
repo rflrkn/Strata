@@ -8,7 +8,7 @@
 					<li><a href="https://github.com/" class="icon fa-github"><span class="label">Github</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; <?php echo date('Y'); ?> - <?php echo site_name(); ?></li><li>Design: <a href="http://html5up.net">HTML5 UP</a> - Ported by<a href="https://th3f.de">Th3f.DE</a></li>
+					<li>&copy; <?php echo date('Y'); ?> - <?php echo site_name(); ?></li><li>Design: <a href="http://html5up.net">HTML5 UP</a> - Ported by <a href="https://th3f.de">Th3f.DE</a></li>
 				</ul>
 			</footer>
 
