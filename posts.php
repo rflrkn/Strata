@@ -18,4 +18,5 @@
 					<?php echo posts_prev('<i class="fa fa-chevron-circle-left"></i><span> Older stuff</span>', '<a><i class="fa fa-chevron-circle-left"></i><span> Older Stuff</span></a>'); ?><?php echo posts_next('<span>Newer stuff </span><i class="fa fa-chevron-circle-right"></i>', '<a><span>Newer stuff </span><i class="fa fa-chevron-circle-right"></i></a>'); ?>
 				</nav>
 				<?php endif; ?>
+			</div>
 <?php theme_include('footer'); ?>
